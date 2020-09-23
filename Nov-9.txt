@@ -1,0 +1,23 @@
+November 9 - 10:18pm 
+Updated by: Simon
+Major Updates:
+	Server messages window colourising has been added. The main function appears
+	in actionsMod.bas module file as "setcolor". This uses the enumeration of the
+	colour names in the same file. This function is at the moment used by AddText
+	function in ClientMain form (mainForm.frm) and subsequently all statements 
+	that call AddText locally from ClientMain form.
+
+	frmAbout form (about.frm) has been changed to reflect the team work. 
+Minor Updates:
+	Minor release number has been changed from 1.2 to 1.9 beta.
+Suggestions:
+	Please use this format for logging updates. Preferably using the same file for
+	this week or month. Next update should therefore be added to the top of this
+	file. Please note down all files changed and any major updates, not including
+	minor bug fixes. That is, All major bugs and new feature should be logged.
+Files changed:
+	actionsMod
+	ClientMain.frm
+	about.frm
+End
+----------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+November 12 - 1:11pm  
+Updated by: Sofwath
+Major Updates:
+	All the major ctcp replies done. PING, VERSION, FINGER, TIME.
+	in Sub parse i have put a exit sub (temp use) cos it keeps on
+	giving an error...(will look into it).
+	Fixed the whois from pop up menu ( removed the @ and + from nick)
+
+Minor Updates:
+	Enabled to send color codes, through Control+k
+
+Suggestions:
+	-
+Files changed:
+	ClientMain.frm
+	channelF.frm
+End
+----------------------------------------------------------------------------------
