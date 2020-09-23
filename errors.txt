@@ -1,0 +1,35 @@
+errors.txt
+
+this contails small run time errors that are found during the development!
+
+error!
+-----
+	while offline if you send any data, it gives an error.
+
+	solution!
+	--------
+	check the status (online or offline) before sending any data
+	( partly fixed by sofwath )
+
+
+error!
+-----
+	when u connect to server if your nick is in use it disconnects
+	(this is normal)
+
+	solution!
+	--------
+	when u get the nick in use error change the nick to nick = nick + "_"
+
+	this way user does not have to change the nick everytime
+	( not fixed yet )
+
+error!
+-----
+	when u'r first attemnt to connect to irc server fails next time u try 
+	will result in an error
+	
+	solution!
+	---------
+	close all the winsocket controls before u connect
+	( fixed by sofwath )
